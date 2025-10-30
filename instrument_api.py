@@ -11,7 +11,8 @@ df['expiry_date'] = df['expiry'].dt.date
 
 @router.get("/")
 def read_root():
-    return {"Hello": "World"}
+    # ADDED: A more informative status response for the frontend check
+    return {"status": "success", "message": "Hello, I am up! You can proceed..."}
 
 @router.get("/instrument_keys")
 def get_instrument_keys(
