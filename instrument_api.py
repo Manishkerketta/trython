@@ -4,7 +4,7 @@ from typing import List
 
 router = APIRouter()
 
-data_url = 'https://assets.upstox.com/market-quote/instruments/exchange/complete.json.gz'
+data_url = 'https://assets.upstox.com/market-quote/instruments/exchange/NSE.json.gz'
 # df = pd.read_json(data_url)
 # df['expiry'] = pd.to_datetime(df['expiry'], unit='ms')
 # df['expiry_date'] = df['expiry'].dt.date
