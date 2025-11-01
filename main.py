@@ -12,6 +12,7 @@ app.include_router(vwap_router)
 origins = [
     "http://localhost:3000",   # your frontend origin
     "https://trythonapi.onrender.com", # Allow your own domain
+    "https://tradesync-gray.vercel.app", # Allow your own domain
     # Add more origins if needed
 ]
 
